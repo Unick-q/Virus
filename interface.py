@@ -5,7 +5,6 @@ from PyQt5.QtWidgets import *
 from PyQt5.QtGui import *
 from PyQt5 import *
 import sys
-import numpy as np
 
 DISPLAY_CITY =["Moscow", "Kazan","Vladivostok", "Sochi", "Yekaterinburg", "Belgorod"]
 color = 'black'
