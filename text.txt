@@ -1,0 +1,7 @@
+TypeError: arguments did not match any overloaded call:
+  QStandardItem(): too many arguments
+  QStandardItem(str): too many arguments
+  QStandardItem(QIcon, str): argument 1 has unexpected type 'str'
+  QStandardItem(int, columns: int = 1): argument 1 has unexpected type 'str'
+  QStandardItem(QStandardItem): argument 1 has unexpected type 'str'
+[1]    4668 abort      python3 corry.py
