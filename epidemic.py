@@ -4,7 +4,7 @@ import person
 
 class Epidemic:
 
-    def __init__ (self, vaccinated, infection, recover, resus, remove, people, immune_time, contact_nwk, verbose_mode, modes=None, filename=None, start=True):
+    def __init__ (self, vaccinated, infection, recover, resus, remove, people, immune_time, contact_nwk, verbose_mode, modes=None, start=True):
         '''Initial elements
 
         Attributes
@@ -19,7 +19,6 @@ class Epidemic:
         self.epidemic = 0   # Whether an epidemic occured or not.
         self.people = people
         self.contact_nwk = contact_nwk
-        self.filename = filename
         self.mode = {}  # Dict of modes loaded. Values are mode objects
 
         try:
@@ -292,7 +291,7 @@ class Epidemic:
             if self.people[i].vaccinated == 1 and seed <= self.resus:
                 self.people[i].vaccinated = 0
 
-    def next(self, filename):
+    def next(self):
         '''
         At each iteration, there will be:
         * Calculate S, I, V and proportion of pro and against vaccine.

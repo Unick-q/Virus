@@ -59,7 +59,6 @@ class Simulation:
             infected.append(epidemic.I)
             vaccinated.append(epidemic.V)
             dead.append(epidemic.R)
-            epidemic.next(self.filename)
 
         print('=========== Result =========\n')
         print('There are {} people infected.'.format(epidemic.I))

@@ -8,9 +8,6 @@ import sys
 
 DISPLAY_CITY =["Moscow", "Kazan","Vladivostok", "Sochi", "Yekaterinburg", "Belgorod"]
 color = 'black'
-rows = [("Newton", "1643-01-04", "Classical mechanics"),
-        ("Einstein", "1879-03-14", "Relativity"),
-        ("Darwin", "1809-02-12", "Evolution")]
 
 
 def make_zeros(number):
@@ -33,10 +30,6 @@ class MyForm(QDialog):
         self.ui.stepbutton.clicked.connect(self.load_data)
         self.ui.exitbutton.clicked.connect(self.close)  
         self.ui.w = None
-
-    def __del__(self):
-        sys.stdout = sys.__stdout__
-
 
     def changed_values(self):
         for city in CITIES:
