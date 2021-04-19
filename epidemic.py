@@ -297,8 +297,6 @@ class Epidemic:
         * Calculate S, I, V and proportion of pro and against vaccine.
         * Each person interacts with another.
 
-        Parameter:
-        - filename: File name for csv output.
         '''
 
         self.get_states()
