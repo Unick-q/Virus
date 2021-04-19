@@ -130,7 +130,7 @@ class Epidemic:
             self.epidemic = 0
             Epidemic.kill_epidemic(self)
 
-    def start_epidemic(self, initial_infection=4):
+    def start_epidemic(self, initial_infection=8):
         '''
         Start an epidemic
         '''
