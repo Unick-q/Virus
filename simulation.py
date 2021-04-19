@@ -1,6 +1,5 @@
 from person import Person
 from epidemic import Epidemic
-# from contact import ContactNwk
 import random
 
 class Simulation:

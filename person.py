@@ -1,8 +1,3 @@
-'''
-Model Opinion Dynamics and separate them into groups of 3
-'''
-
-import numpy as np
 import random
 
 class Person:

@@ -184,7 +184,7 @@ class Epidemic:
             if seed < self.remove:
                 self.people[i].removed = 1
 
-    def infect(self):
+     
         '''
         Mechanism of infection.
         '''

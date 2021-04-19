@@ -2,8 +2,6 @@ from person import Person
 
 import random
 import math
-import networkx as nx
-import numpy as np
 
 class Mode:
     def __init__(self, people, code):
